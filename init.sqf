@@ -14,7 +14,7 @@ private _spawnWhiteList = ["spawn_ok_1", "spawn_ok_2", "spawn_ok_3", "spawn_ok_4
 ["marker_spawn", nil, "LIEUTENANT", _spawnBlackList, 0, 5, 1, _spawnWhiteList] call int_fnc_chooseSpawnPos;
 
 //Helico d'extraction
-["ACRE_PRC148",5,blufor,"CPC_Duala_B_GFD_SA330",(MarkerPos "mk_spawnHelico"),0,false] call GDC_fnc_choppa;
+["ACRE_PRC148", 5, blufor, "CPC_Duala_B_GFD_SA330", (MarkerPos "mk_spawnHelico"), 0, false] call GDC_fnc_choppa;
 
 
 //Lance le briefing
